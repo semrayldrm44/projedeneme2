@@ -1,0 +1,35 @@
+﻿@model List<Psiko.Data.Models.Kullanici>
+@{
+    Layout = "_InternalLayout";
+}
+@if (Model.Any())
+{
+
+    <table style="width:100%;border-collapse:collapse;">
+        <thead>
+            <tr>
+                <td style="width:100px">Id</td>
+                <td style="width:100px">Adı / Soyadı</td>
+                <td style="width:200px">Tur</td>
+            </tr>
+        </thead>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.AdSoyadi</td>
+                <td>@item.Tur</td>
+            </tr>
+        }
+        <tfoot>
+            <tr>
+                <td colspan="3">Bulunan kayıt sayısı: @Model.Count.ToString()</td>
+            </tr>
+        </tfoot>
+    </table>
+    <div style="margin:25px 0;background-color:darkseagreen">
+        <a style="padding:10px;border:1px solid silver;background-color:blueviolet" href="/kullanici/add">Yeni Kullanici Ekle</a>
+    </div>
+}
+

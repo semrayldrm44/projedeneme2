@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\denemeler\projedeneme2\projedeneme2\Psiko.Data\Psiko.Data\bin\Debug\netstandard1.6\Psiko.Data.deps.json
+C:\Users\user\Desktop\denemeler\projedeneme2\projedeneme2\Psiko.Data\Psiko.Data\bin\Debug\netstandard1.6\Psiko.Data.dll
+C:\Users\user\Desktop\denemeler\projedeneme2\projedeneme2\Psiko.Data\Psiko.Data\bin\Debug\netstandard1.6\Psiko.Data.pdb
+C:\Users\user\Desktop\denemeler\projedeneme2\projedeneme2\Psiko.Data\Psiko.Data\obj\Debug\netstandard1.6\Psiko.Data.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\denemeler\projedeneme2\projedeneme2\Psiko.Data\Psiko.Data\obj\Debug\netstandard1.6\Psiko.Data.AssemblyInfo.cs
+C:\Users\user\Desktop\denemeler\projedeneme2\projedeneme2\Psiko.Data\Psiko.Data\obj\Debug\netstandard1.6\Psiko.Data.dll
+C:\Users\user\Desktop\denemeler\projedeneme2\projedeneme2\Psiko.Data\Psiko.Data\obj\Debug\netstandard1.6\Psiko.Data.pdb

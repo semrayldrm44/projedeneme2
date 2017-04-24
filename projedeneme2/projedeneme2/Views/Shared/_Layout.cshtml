@@ -1,0 +1,103 @@
+﻿
+
+
+@{
+    Layout = null;
+    
+
+
+}
+
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title >PsikoNET</title>
+    <link href="~/css/proje.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="kutu">
+            <div class="sayfabaslik">
+                <h2 class="sayfabaslikyazi" style="margin-top:2px; font-family:'Monotype Corsiva' ">PsikoNET</h2>
+            </div>
+            <div class="menu">
+               @*<div class="topnav" id="myTopnav">
+                   @Html.ActionLink("Anasayfa", "Anasayfa", "Home");
+                   @Html.ActionLink("Hakkımızda", "hakkimizda", "Home");
+                    <a href="#">Tanı-Tedavi Araçları</a>
+                    <a href="#">Uzmanlarımız</a>
+                    <a href="#">Soru-Cevap</a>
+                    <a href="#">Köşe Yazarları</a>
+                    <a href="#">Online Randevu</a>
+                    <a href="#">GİRİŞ</a>
+                </div>
+            </div>*@
+
+
+
+
+
+            <div class="container">
+                @Html.ActionLink("Anasayfa","Anasayfa","Home")
+                @Html.ActionLink("Hakkımızda","hakkimizda","Home")
+               
+
+                <div class="dropdown">
+                    <button class="dropbtn">Tanı-Tedavi Araçları</button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                       
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Uzmanlarımız</button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+
+                @Html.ActionLink("Soru-Cevap","soruCevap","Home")
+                <div class="dropdown">
+                    <button class="dropbtn">Köşe Yazarları</button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+                @Html.ActionLink("Online Randevu","onlineRandevu","Home")
+                @Html.ActionLink("GİRİŞ","giris","Home")
+            </div>
+                </div>
+
+
+
+
+
+
+           @RenderSection("slider",false)
+
+           @RenderSection("govde",false)
+
+                <div class="alt">
+                    <!------------sosyal medya tuşları------------->
+                    <a href="#" class="fa fa-facebook">facebook</a>
+                    <a href="#" class="fa fa-twitter">twitter</a>
+                    <a href="#" class="fa fa-youtube">YouTube</a>
+                    <!------------sosyal medya tuşları------------->
+                    <p style="margin-left:15px; margin-top:15px; color:white; font-size:small;">PsikoNET © 2017.</p>
+                </div>
+            </div>
+            
+    </form>
+</body>
+</html>

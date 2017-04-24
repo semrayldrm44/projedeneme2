@@ -1,0 +1,72 @@
+﻿@model Psiko.Data.Models.Kullanici
+@{
+    Layout = "_InternalLayout";
+}
+
+<style type="text/css">
+    input[type='text'],input[type='password'] {
+        padding: 20px;
+        width: 300px;
+        margin-bottom:20px;
+    }
+
+    input[type='submit'] {
+        padding: 30px;
+    }
+</style>
+<form  action="/kullanici/kaydet" method="post">
+    <input type="text"  name="AdSoyadi" value="" placeholder="Adı ve Soyadı"/> <br/>
+    <input type="password" name="Sifre" value="" placeholder="Sifre" /> <br />
+    <ul>
+        <li><input type="radio" name="tur"  value="User" />User</li>
+        <li><input type="radio" name="tur" value="Psiko" />Psiko</li>
+        <li><input type="radio" name="tur" value="Yönetici" />Yönetici</li>
+    </ul>
+    <input type="submit" value="Kaydet" />
+</form>
+
+
+
+
+
+
+@*/////////////////////////////////
+    @{
+            Layout = null;
+
+
+
+        }
+        <!DOCTYPE html>
+
+        <html>
+        <head runat="server">
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+            <title>PsikoNET</title>
+        <style type="text/css">
+        input[type='text'],input[type='password'] {
+            padding: 20px;
+            width: 300px;
+            margin-bottom:20px;
+        }
+
+        input[type='submit'] {
+            padding: 30px;
+        }
+    </style>
+        </head>
+        <body>
+            <form action="/kullanici/kaydet" method="post">
+            <input type="text"  name="AdSoyadi" value="" placeholder="Adı ve Soyadı"/> <br/>
+            <input type="password" name="Sifre" value="" placeholder="Sifre" /> <br />
+            <ul>
+                <li><input type="radio" name="tur"  value="User" />User</li>
+                <li><input type="radio" name="tur" value="Psiko" />Psiko</li>
+                <li><input type="radio" name="tur" value="Yönetici" />Yönetici</li>
+            </ul>
+            <input type="submit" value="Kaydet" />
+            
+            </form>
+        </body>
+        </html>*@
+

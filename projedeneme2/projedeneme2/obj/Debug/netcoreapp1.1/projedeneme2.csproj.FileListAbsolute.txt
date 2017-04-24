@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\denemeler\projedeneme2\projedeneme2\projedeneme2\bin\Debug\netcoreapp1.1\projedeneme2.deps.json
+C:\Users\user\Desktop\denemeler\projedeneme2\projedeneme2\projedeneme2\bin\Debug\netcoreapp1.1\projedeneme2.runtimeconfig.json
+C:\Users\user\Desktop\denemeler\projedeneme2\projedeneme2\projedeneme2\bin\Debug\netcoreapp1.1\projedeneme2.runtimeconfig.dev.json
+C:\Users\user\Desktop\denemeler\projedeneme2\projedeneme2\projedeneme2\bin\Debug\netcoreapp1.1\projedeneme2.dll
+C:\Users\user\Desktop\denemeler\projedeneme2\projedeneme2\projedeneme2\bin\Debug\netcoreapp1.1\projedeneme2.pdb
+C:\Users\user\Desktop\denemeler\projedeneme2\projedeneme2\projedeneme2\obj\Debug\netcoreapp1.1\projedeneme2.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\denemeler\projedeneme2\projedeneme2\projedeneme2\obj\Debug\netcoreapp1.1\projedeneme2.AssemblyInfo.cs
+C:\Users\user\Desktop\denemeler\projedeneme2\projedeneme2\projedeneme2\obj\Debug\netcoreapp1.1\projedeneme2.dll
+C:\Users\user\Desktop\denemeler\projedeneme2\projedeneme2\projedeneme2\obj\Debug\netcoreapp1.1\projedeneme2.pdb
+C:\Users\user\Desktop\denemeler\projedeneme2\projedeneme2\projedeneme2\bin\Debug\netcoreapp1.1\Psiko.Data.dll
+C:\Users\user\Desktop\denemeler\projedeneme2\projedeneme2\projedeneme2\bin\Debug\netcoreapp1.1\Psiko.Data.pdb
